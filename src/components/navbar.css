@@ -1,0 +1,68 @@
+.navbar{
+    height: 50px;
+    background-color: #000000;
+    color: #ededed;
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+    position: fixed;
+}
+
+.zonaLogo{
+    width: 165px;
+    float: left;
+    margin: 0px 150px 0px 20px;
+}
+
+.logo{
+    width: 165px;
+}
+
+.menu{
+    width: 25px;
+    height: 25px;
+    color: #FE9800;
+}
+
+.buttonMenu{
+    margin-top: 0px;
+    float: left;
+}
+
+.zonaSearch{
+    width: 50%;
+    float: left;
+    background-color: #252525;
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.formSearch{
+    width: 100%;
+}
+
+.inputSearch{
+    width: 93.7%;
+    margin: 5px;
+    height: 35px;
+    border-radius: 25px;
+    background-color: #252525;
+    border: 0px;
+}
+
+.buttonSearch{
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #FE9800;
+}
+
+.buttonSearch:hover{
+    border: 0px;
+}
+
+.iconSearch{
+    color: #000000;
+}

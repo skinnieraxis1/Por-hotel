@@ -1,0 +1,15 @@
+.hoteles{
+    width: 400px;
+    height: 350px;
+    margin-left: 70px;
+}
+
+.imgH{
+    width: 100%;
+}
+
+.estrella{
+    color: #FE9800;
+    width: 30px;
+    height: 30px;
+}
