@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    background-color: black;
+}
+
+.cuerpo{
+    width: 100%;
+    margin: 37% 0px 0px 200px;
+}
+
+.subtitle{
+    width: 100%;
+    font-size: 42px;
+    color: white;
+}
+
+.zonaProvincias{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.zonaHoteles{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+
+}

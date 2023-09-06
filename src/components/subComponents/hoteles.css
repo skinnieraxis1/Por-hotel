@@ -1,0 +1,43 @@
+.hoteles{
+    width: 400px;
+    height: 350px;
+    margin-left: 70px;
+}
+
+.imgH{
+    width: 100%;
+}
+
+.estrella{
+    color: #FE9800;
+    width: 26px;
+    height: 25px;
+}
+
+.nombre{
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    margin-top:-10px;
+}
+
+.zonaSub, .zonaLikes, .zonaVisitas{
+    display: flex;
+    flex-direction: row;
+    color: #66696E;
+}
+
+.zonaVisitas{
+    margin-left: 43%;
+}
+
+.zonaLikes{
+    margin-left: 5%;
+}
+
+.sub{
+    margin: 0px;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: -1px;
+}

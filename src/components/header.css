@@ -1,0 +1,33 @@
+.header{
+    margin: 0px;
+    width: 100%;
+}
+
+.zonaImgFondo{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0px;
+    float: left;
+}
+
+.imgFondo{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.logoCentral{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    border-radius: 25px;
+    background-color: #000000;
+    padding: 5px 0px 0px 30px;
+}
+
+.logo{
+    width: 90%;
+}
