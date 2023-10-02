@@ -20,8 +20,8 @@ function Cuerpo() {
             <Provincias href="#" nombre="Tierra del Fuego" />
           </div>
           <div className='zonaHoteles'>
-            <Hoteles estrellas="5" img={hotelA} nombre="hotel Caliente" visitas="2.5k" likes="98"/>
-            <Hoteles estrellas="5" img={hotelA} nombre="el Jodido Hotel" visitas="5.3m" likes= />
+            <Hoteles estrellas="5" img={hotelA} likes="98" vistas="16.5k" />
+            <Hoteles estrellas="5" img={hotelA} />
             <Hoteles estrellas="5" img={hotelA} />
           </div>
       </div>

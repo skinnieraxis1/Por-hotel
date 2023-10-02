@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px 50px 200px;
+}
+
+.zonaBotones{ 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+}
+
+.boton{
+    height: 50px;
+    background-color: #252525;
+    margin: 10px;
+}
+
+.D{
+    width: 50px;
+}
+
+.bFlecha{
+    width: 100px;
+}

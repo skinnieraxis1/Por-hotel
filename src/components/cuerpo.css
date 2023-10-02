@@ -1,6 +1,5 @@
 body{
     width: 100%;
-    background-color: black;
 }
 
 .cuerpo{
@@ -11,7 +10,6 @@ body{
 .subtitle{
     width: 100%;
     font-size: 42px;
-    color: white;
 }
 
 .zonaProvincias{

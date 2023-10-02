@@ -1,3 +1,7 @@
+p{
+    margin: 0px;
+}
+
 .hoteles{
     width: 400px;
     height: 350px;
@@ -6,38 +10,48 @@
 
 .imgH{
     width: 100%;
+    height: 300px;
 }
 
 .estrella{
     color: #FE9800;
-    width: 26px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
-
-.nombre{
-    color: white;
-    font-size: 25px;
+.zonaTop{
     width: 100%;
-    margin-top:-10px;
-}
-
-.zonaSub, .zonaLikes, .zonaVisitas{
+    height: 30px;
     display: flex;
     flex-direction: row;
+}
+
+.zonaEstrella{
+    width: 60%;
+}
+
+.zonaVistas, .zonaLikes{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    float: left;
     color: #66696E;
 }
 
-.zonaVisitas{
-    margin-left: 43%;
+.vista, .like{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }
 
-.zonaLikes{
-    margin-left: 5%;
-}
-
-.sub{
+.title{
     margin: 0px;
-    font-size: 13px;
-    margin-left: 5px;
-    margin-top: -1px;
+}
+
+.zonaPrecio{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    background-color: #000000;
 }
