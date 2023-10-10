@@ -1,0 +1,65 @@
+use porhotelDB
+
+db.createCollection("hoteles")
+
+db.hoteles.insertMany([
+  {
+    _id: ObjectId(),
+    nombre: "hotel prueba",
+    imagen: "./assets/img/hotelPrueba.jpg",
+    provincia: "Buenos Aires",
+    estrellas: 3
+  },
+  {
+    _id: ObjectId(),
+    nombre: "hotel",
+    imagen: "./assets/img/hotel.jpg",
+    provincia: "Buenos Aires",
+    estrellas: 3
+  }
+  
+])
+
+db.hoteles.find()
+
+db.createCollection("clientes")
+
+db.clientes.insertMany([
+  {
+    _id: ObjectId(),
+    nombre: "Lautaro",
+    apellido: "Feruglio",
+    dni: 46994313,
+    tarjeta: 1345335252,
+    telefono: "+54 9 11 6278-0960"
+  },
+  {
+    _id: ObjectId(),
+    nombre: "Martin",
+    apellido: "Hossein",
+    dni: 45994313,
+    tarjeta: 12693132143,
+    telefono: "+54 9 11 3277-9338"
+  }
+  
+])
+
+db.clientes.find()
+
+db.createCollection("reseña")
+
+var user = db.clientes.findOne({nombre: "Martin"});
+var hotel = db.hoteles.findOne({nombre: "hotel"});
+
+db.reseña.insertOne([
+  {
+    _id: ObjectId(),
+    id_usuario: user._id,
+    id_hotel: hotel._id,
+    mensaje: "nefasto este compilador",
+    nota: 3.5
+  }
+  
+])
+
+db.reseña.find()
