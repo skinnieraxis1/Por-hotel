@@ -2,6 +2,7 @@ import './cuerpo.css'
 import Provincias from './subComponents/Provincias'
 import Hoteles from './subComponents/Hoteles'
 import hotelA from '../assets/hotelA.jpg'
+import { Link } from 'react-router-dom';
 
 function Cuerpo() { 
 

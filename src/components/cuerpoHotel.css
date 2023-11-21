@@ -24,7 +24,7 @@ body{
     padding: 2%;
 }
 
-.estrella{
+.estrellaCuerpoHoteles{
     color: #FE9800;
     width: 50px;
     height: 50px;
@@ -34,4 +34,13 @@ body{
     color: #FE9800;
     width: 15px;
     height: 15px;
+}
+
+.precioHotel{
+    font-size: 125px;
+    margin: 10px 0px 40px 0px;
+}
+
+.nombreHotel{
+    margin: 0px;
 }

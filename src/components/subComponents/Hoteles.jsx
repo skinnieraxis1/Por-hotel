@@ -20,11 +20,11 @@ function Provincias(props) {
           <img className='imgH' src={props.img} alt="" />
           <div className="zonaTop">
             <div className="zonaEstrella">
-            <AiFillStar className='estrella'></AiFillStar>
-            <AiFillStar className='estrella'></AiFillStar>
-            <AiFillStar className='estrella'></AiFillStar>
-            <AiFillStar className='estrella'></AiFillStar>
-            <AiFillStar className='estrella'></AiFillStar>
+            <AiFillStar className='estrellaHoteles'></AiFillStar>
+            <AiFillStar className='estrellaHoteles'></AiFillStar>
+            <AiFillStar className='estrellaHoteles'></AiFillStar>
+            <AiFillStar className='estrellaHoteles'></AiFillStar>
+            <AiFillStar className='estrellaHoteles'></AiFillStar>
             </div>
             <div className="zonaVistas">
               <AiFillEye className='vista'></AiFillEye>

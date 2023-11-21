@@ -11,7 +11,7 @@ function Header() {
             <img className='imgFondo' src={hotelFondo} alt="" />
         </div>
         <div className='logoCentral'>
-          <img className='logo' src={porhotelLogo} alt="" />
+          <img className='logoHeader' src={porhotelLogo} alt="" />
         </div>
       </div>
     </>
